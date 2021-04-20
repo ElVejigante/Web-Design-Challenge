@@ -3,20 +3,23 @@ body{
 }
 
 .navbar{
-    max-height: 50px; 
-	background-color: #cacccb; 
-    font-size: 15px; 
+    background-color: #cacccb; 
+	font-size: 15px; 
+	max-height: 50px; 	
 }
 
 .navigation .navbar-brand{
+	background-color: #38ab87;
 	color: white; 
 	margin-left: 50px; 
 	padding: inherit; 
 	font-weight: bold; 
-	background-color: #38ab87;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+.nav-link:hover{
+    background-color:#adc7c4;
+}
 .dropdown-item{
     color: #30615c; 
 }
@@ -24,11 +27,6 @@ body{
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
     background-color:#adc7c4; 
 }
-
-.nav-link:hover{
-    background-color:#adc7c4;
-}
-
 
 /* Media Queries */
 @media (max-width: 991.98px){
